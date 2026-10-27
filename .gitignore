@@ -1,0 +1,12 @@
+# Never upload secrets
+.env
+*.env
+
+# Python clutter
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local test/debug files
+check_news.py
+*_log.txt
